@@ -14,11 +14,11 @@ func get(w http.ResponseWriter, r *http.Request) {
 
 	// json header default
 	w.Header().Set("Content-Type", "application/json")
-	w.Header().Set("Header01", "Satu")
-	w.Header().Set("Header02", "DUA")
-	w.Header().Set("Header03", "tIGA")
-	w.Header().Set("Header04", "EmPaT")
-	w.Header().Set("Header05", "limA")
+	w.Header().Set("HeaDer01", "Satu")
+	w.Header().Set("HeadeR02", "DUA")
+	w.Header().Set("HeAder03", "tIGA")
+	w.Header().Set("HEader04", "EmPaT")
+	w.Header().Set("HEAdER05", "limA")
 
 	fmt.Fprint(w, "{\"hello\":\"world\"}")
 	return
